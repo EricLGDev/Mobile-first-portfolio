@@ -372,6 +372,14 @@ img{
 
  .footer_socials{
      margin-bottom: 3rem;
+     display: inline-flex;
+     background-color: var(--first-color);
+     color: var(--first-color-lighten);
+     font-size: 1.1rem;
+     border-radius: 50%;
+     padding: .4rem;
+     margin: 0 var(--mb-1);
+     transition: .3s;
  }
 
  .footer_link{
@@ -467,3 +475,28 @@ img{
          grid-template-columns: repeat(2,1fr);
      }
  }
+
+ button{
+    cursor: pointer;
+    border: 1px solid #555;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+.dark_mode button{
+    display: inline-flex;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    font-size: 1.1rem;
+    border-radius: 50%;
+    margin-bottom: var(--mb-5);
+    transition: .3s;
+    padding: 0;
+    margin-left: 0;
+    border: hidden;
+}

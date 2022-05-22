@@ -41,3 +41,9 @@ function scrollActive (){
         }
     })
 }
+
+// Toggle Dark
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark");
+    }
