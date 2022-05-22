@@ -142,7 +142,7 @@ img{
 .nav_menu{
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 90%;
     height: 100vh;
     padding: 3rem;
@@ -181,4 +181,8 @@ img{
     color: var(--first-color-dark);
     font-size: 1.3rem;
     cursor: pointer;
+}
+
+.show{
+    left: 0;
 }
